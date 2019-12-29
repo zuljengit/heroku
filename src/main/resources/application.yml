@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://ec2-54-195-252-243.eu-west-1.compute.amazonaws.com/ddeohnkk8ic3hc
+    username: ixsfhfrcpzcfet
+    password: ae08955b9dbeea44f982e623733e54af302685b449e9e8c82f0bb16dd652d6c3
